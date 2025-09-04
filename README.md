@@ -52,14 +52,14 @@ util/ # Resource, validators
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/authDemoApp.git
+   git clone https://github.com/ferdoushasan69/AuthDemoApp.git
 
 
 Open in Android Studio (Giraffe or newer).
 
 In ApiService.kt, set the base URL:
 
-private const val BASE_URL = "https://your-backend-url.com/api/"
+private const val BASE_URL = ""
 
 
 Build & Run 🚀
@@ -109,6 +109,21 @@ This project is licensed under the MIT License.
 
 ---
 
-Do you want me to **prepare a professional `README.md` file with placeholders (ready to copy-paste int
+
+
+authDemoApp/
+ ├── app/                      # Main Android app module
+ │   ├── src/main/java/com/example/authdemo/
+ │   │    ├── data/            # Repository, DataStore, DTOs, API
+ │   │    ├── di/              # Hilt modules
+ │   │    ├── domain/          # Use cases, business logic
+ │   │    ├── ui/              # Jetpack Compose screens
+ │   │    └── util/            # Resource, validators
+ │   └── res/                  # Layouts, strings, colors, themes
+ ├── .gitignore
+ ├── build.gradle
+ ├── settings.gradle
+ ├── README.md
+ └── LICENSE
 ## 📂 Project Structure
 

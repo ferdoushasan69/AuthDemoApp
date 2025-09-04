@@ -110,18 +110,64 @@ This project is licensed under the MIT License.
 ---
 
 
+📂 Root Level (authDemoApp/)
 
-authDemoApp/
- ├── app/                      # Main Android app module
- │   ├── src/main/java/com/example/authdemo/
- │   │    ├── data/            # Repository, DataStore, DTOs, API
- │   │    ├── di/              # Hilt modules
- │   │    ├── domain/          # Use cases, business logic
- │   │    ├── ui/              # Jetpack Compose screens
- │   │    └── util/            # Resource, validators
- │   └── res/                  # Layouts, strings, colors, themes
- ├── .gitignore
- ├── build.gradle
- ├── settings.gradle
- ├── README.md
- └── LICENSE
+.gitignore → Keeps out build files, secrets, etc.
+
+build.gradle & settings.gradle → Gradle build system configs.
+
+README.md → Documentation for GitHub.
+
+LICENSE → Open-source license.
+
+app/ → The actual Android app module (your main project code lives here).
+
+📂 Inside app/src/main/java/com/example/authdemo/
+
+This is where you see clean layers:
+
+data/
+
+Handles data sources (API, DB, DataStore).
+
+Contains DTOs, repositories, Retrofit API interfaces.
+
+Example: AuthRepository, ApiService, SignupRequest.
+
+di/
+
+Stands for Dependency Injection.
+
+Contains Hilt modules (@Module @InstallIn) that provide dependencies like Retrofit, Repository, etc.
+
+Example: NetworkModule.kt.
+
+domain/
+
+Holds business logic.
+
+Contains Use Cases → each represents a single business action.
+
+Example: LoginUseCase, SignupUseCase.
+
+ui/
+
+Handles Jetpack Compose screens + ViewModels.
+
+Example: LoginScreen.kt, SignupScreen.kt, HomeScreen.kt.
+
+Organized by feature (ui/login/, ui/signup/).
+
+util/
+
+Helper classes/utilities.
+
+Example: Resource.kt (sealed class for Loading/Success/Error), validators (EmailValidator.kt).
+
+📂 Inside app/src/main/res/
+
+layout/ (if you still use XML) → Compose apps usually don’t need much here.
+
+values/ → strings.xml, colors.xml, themes.xml.
+
+drawable/ → icons, logos.CENSE

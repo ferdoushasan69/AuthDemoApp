@@ -125,5 +125,3 @@ authDemoApp/
  ├── settings.gradle
  ├── README.md
  └── LICENSE
-## 📂 Project Structure
-

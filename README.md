@@ -107,7 +107,6 @@ This project is licensed under the MIT License.
 
 👉 That way it’s clear you are **not building backend**, just **consuming APIs**.  
 
----
 
 
 authDemoApp/
@@ -125,9 +124,5 @@ authDemoApp/
  ├── README.md
  └── LICENSE
 
-
-layout/ (if you still use XML) → Compose apps usually don’t need much here.
-
-values/ → strings.xml, colors.xml, themes.xml.
 
 drawable/ → icons, logos.CENSE

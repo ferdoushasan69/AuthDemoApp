@@ -108,21 +108,3 @@ This project is licensed under the MIT License.
 👉 That way it’s clear you are **not building backend**, just **consuming APIs**.  
 
 
-
-authDemoApp/
- ├── app/                      # Main Android app module
- │   ├── src/main/java/com/example/authdemo/
- │   │    ├── data/            # Repository, DataStore, DTOs, API
- │   │    ├── di/              # Hilt modules
- │   │    ├── domain/          # Use cases, business logic
- │   │    ├── ui/              # Jetpack Compose screens
- │   │    └── util/            # Resource, validators
- │   └── res/                  # Layouts, strings, colors, themes
- ├── .gitignore
- ├── build.gradle
- ├── settings.gradle
- ├── README.md
- └── LICENSE
-
-
-drawable/ → icons, logos.CENSE

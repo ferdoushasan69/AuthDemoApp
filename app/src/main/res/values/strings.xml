@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AuthDemoApp</string>
+
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="or_create_a_new_account">Or create a new account</string>
+    <string name="email_or_phone_number">Email or Username</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_your_account">Create your account</string>
+    <string name="or_sign_in_to_your_existing_account">Or sign in to your existing account</string>
+    <string name="user_name">Username</string>
+    <string name="john">John</string>
+    <string name="last_name">Last Name</string>
+    <string name="doe">Doe</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_1_555_123_4567">+1 (555) 123-4567</string>
+    <string name="email">Email</string>
+    <string name="john_doe_example_com">john.doe@example.com</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="enter_your_retype_password">Enter your retype password</string>
+    <string name="sign_up">Sign Up</string>
+</resources>

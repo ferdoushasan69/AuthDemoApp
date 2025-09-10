@@ -12,7 +12,7 @@ This app consumes an existing Node.js backend (e.g., Express + MongoDB) for auth
 
 ✅ Secure token storage using DataStore
 
-✅ Form validation (first name, last name, phone, email, password match)
+✅ Form validation (username, email, password match)
 
 ✅ Clean Architecture using MVVM pattern
 
